@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-image-view-component',
+  selector: 'imageview',
   templateUrl: './image-view-component.component.html',
   styleUrls: ['./image-view-component.component.css']
 })
 export class ImageViewComponentComponent implements OnInit {
+  test:string = "test";
 
   constructor() { }
 
