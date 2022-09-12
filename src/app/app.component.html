@@ -1,4 +1,8 @@
-<button mat-button [matMenuTriggerFor]="imageMenu">Menu</button>
+<button mat-button [matMenuTriggerFor]="imageMenu">
+  <mat-icon>photo_library</mat-icon>
+  <hr>
+  <span>Imagenes</span>
+</button>
 <mat-menu #imageMenu="matMenu">
   <button mat-menu-item>
     <mat-icon>photo_library</mat-icon>
